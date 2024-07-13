@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+    border-bottom: 0.5px solid #CCC;
+}
+
+#header img {
+    width: 80px;
+}
+
+#header .navigation {   
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+#header .navigation a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+
+.login, .cadastro {
+    padding: 8px 48px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.login{
+    border: 1px solid #349730;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.cadastro{
+    border: none;
+    background-color: #349730;
+    color: white;
+}
+
+/*Main*/
+
+#main {
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 6em 0;
+}
+
+.atendimento-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.atendimento-info h3 {
+    text-transform: uppercase;
+    color: #349730;
+    font-size: 1.2em;
+}
+
+.atendimento-info h2 {
+    font-size: 3rem;
+    color: #000000;
+}
+
+.atendimento-info p {
+    font-size: 1.150rem;
+    color: #808285;
+}
+
+.atendimento-container {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 4em;
+}
+
+.atendimento-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3.5em;
+    margin-bottom: 2em;
+}
+
+.atendimento-wrapper img {
+    width: 45%;
+}
+
+.atendimento-wrapper-infos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    gap: 1rem;
+}
+ 
+.atendimento-wrapper-infos .atendimento-wrapper-infos-title {
+    color: #349730;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.atendimento-wrapper-infos h4 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.atendimento-wrapper-infos .atendimento-wrapper-infos-paragrafo {
+    text-align: justify;
+    font-size: 1rem;
+    color: #808285;
+}
+
+.atendimento-wrapper-infos button {
+    padding: 14px 24px;
+    border-radius: 4px;
+    width: 30%;
+    background-color: transparent;
+    color: #349730;
+    border: 1px solid #349730;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.atendimento-wrapper-infos button:hover {
+    color: #ffffff;
+    background-color: #349730;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #455A64;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+}
+
+footer p {
+    color: #ffffff;
+}

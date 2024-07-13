@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode a {
+    color: #fff;
+}
+
+.dark-mode header, .dark-mode footer {
+    background-color: #222;
+}
+
+
+/*Header*/
+
+.cadastro:hover{
+    background-color: #000000;
+}
+.login:hover{
+    background-color: #000000;
+    color: aliceblue;
+}
+
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+    border-bottom: 0.5px solid #CCC;
+}
+
+#header img {
+    width: 80px;
+}
+
+#header .navigation {   
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+#header .navigation a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+
+.login, .cadastro {
+    padding: 8px 48px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.login{
+    border: 1px solid #349730;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.cadastro{
+    border: none;
+    background-color: #349730;
+    color: white;
+}
+
+/*Main*/
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 76vh;
+}
+
+.content {
+    width: 40%;
+}
+
+.content h1 {
+    font-size: 60px;
+    margin-bottom: 37px;
+}
+
+.content p {
+    width: 70%;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 37px;
+}
+
+.content button {
+    margin-bottom: 37px;
+}
+
+.content .icon-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.content .icon-wrapper img {
+    width: 30px;
+}
+
+.content .icon-wrapper p {
+    margin: 0;
+}
+
+
+.img {
+    width: 30%;
+}
+
+.img img {
+    width: 100%;
+}
+
+footer {
+    background-color: #455A64;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+
+
